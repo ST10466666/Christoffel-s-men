@@ -38,7 +38,7 @@ If not installed, follow the installation steps from the previous response.
 
 Clone this project to your local machine:
 
-git clone https://github.com/yourusername/christoffels-menu.git
+git clone https://github.com/st10466666@rcconnet.edu.za/christoffels-menu.git
 
 2. Install Dependencies
 
@@ -71,4 +71,42 @@ Including Items on the Menu:
 
  As new items are added, the total number of menu items will be updated dynamically.
 
- # 
+ # Technology Stack
+ React Native: Framework used for building the app.
+
+TypeScript: A superset of JavaScript for better development experience with static types.
+
+Expo: Framework used to quickly run and build React Native apps.
+
+React Navigation: For managing the navigation between different screens (future use).
+
+# Overall Design
+The app will have a clean, modern, and minimalistic design. The user interface will prioritize clarity and ease of use. There will be a combination of text inputs, buttons, and lists. The app will be laid out vertically, with each section clearly separated. The background will be light, with subtle colors to maintain focus on the content.
+
+# App Layout Overview:
+
+Header: A bold, centered title saying "Welcome to Christoffel's Menu."
+
+Dish Input Section: Three input fields for entering Dish Name, Description, and Price, each with placeholder text.
+
+Course Selector: A dropdown (Picker) to choose between Starters, Mains, or Desserts.
+
+Add Menu Item Button: A button to add the dish to the list, placed below the course selector.
+
+Total Menu Count: A label displaying the total number of menu items added.
+
+Menu Items List: A dynamic list that shows added dishes, including their name, description, course, and price, each item separated by a clean, bordered box.
+
+# Design Style:
+
+Light background, dark text for readability.
+
+Simple, modern, and user-friendly with rounded corners and subtle borders around inputs and buttons.
+
+Clean layout with plenty of spacing for easy navigation and interaction.
+
+# License
+
+This project is licensed under the MIT License
+
+
