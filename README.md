@@ -83,6 +83,8 @@ React Navigation: For managing the navigation between different screens (future 
 # Overall Design
 The app will have a clean, modern, and minimalistic design. The user interface will prioritize clarity and ease of use. There will be a combination of text inputs, buttons, and lists. The app will be laid out vertically, with each section clearly separated. The background will be light, with subtle colors to maintain focus on the content.
 
+<img width="1239" height="683" alt="code" src="https://github.com/user-attachments/assets/09b8d24f-2a53-4339-8465-c97480f56cce" />
+
 # App Layout Overview:
 
 Header: A bold, centered title saying "Welcome to Christoffel's Menu."
