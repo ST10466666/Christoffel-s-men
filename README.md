@@ -5,7 +5,7 @@
 ## Date: 2025
 
 # TABLE OF CONTENTS
-## Project Overview
+Project Overview
 
 Features Implemented
 
@@ -15,13 +15,11 @@ Installation Guide
 
 Usage Instructions
 
-Assignment Requirements Checklist
-
 Code Structure
 
 Testing & Demonstration
 
-Submission Details
+
 
 # 1. PROJECT OVERVIEW
 The Restaurant Menu Management App is a React Native mobile application designed for restaurant chefs to efficiently manage their menu items. Built using Expo and TypeScript, this application provides an intuitive interface for adding, viewing, and managing restaurant dishes across different course categories.
