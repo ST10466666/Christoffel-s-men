@@ -1,114 +1,74 @@
-# Christoffel-s-menu
-A React Native application called Christoffel's Menu enables cooks to design and oversee a menu for their eatery.  The chef can add new menu items to the app, such as the name of the dish, its description, its cost, and the type of course (desserts, main courses, or appetizers).  The home screen lists every item that has been added along with the total number of menu items.
+## RESTAURANT MENU MANAGEMENT APP
+## Documentation & Assignment Submission
+## Course: React Native Mobile Development
+## Student: Christoffel
+## Date: 2025
 
-# Features
-Add Menu Items: The chef can choose a course type (starters, main courses, or desserts) and enter information such as the dish's name, description, and cost.
+# TABLE OF CONTENTS
+## Project Overview
 
- predetermined Course Types: When adding menu items, a predetermined list of courses (starters, main dishes, and desserts) can be chosen from.
+Features Implemented
 
- Menu Display: The home screen shows every menu item that has been added.
+Technical Specifications
 
- Total Menu Count: Shows how many menu items have been added so far.
+Installation Guide
 
- # Installation
- Installation
-Prerequisites
+Usage Instructions
 
-Make sure you have Node.js installed. You can check if it's installed by running:
+Assignment Requirements Checklist
 
-node -v
+Code Structure
 
+Testing & Demonstration
 
-If not installed, download and install from Node.js website
-.
+Submission Details
 
-Install Expo CLI to easily run the app in development:
+# 1. PROJECT OVERVIEW
+The Restaurant Menu Management App is a React Native mobile application designed for restaurant chefs to efficiently manage their menu items. Built using Expo and TypeScript, this application provides an intuitive interface for adding, viewing, and managing restaurant dishes across different course categories.
 
-npm install -g expo-cli
+Project Type: Mobile Application
+Framework: React Native with Expo
+Programming Language: TypeScript
+Platform: iOS and Android Compatible
 
+# 2. FEATURES IMPLEMENTED
+Core Functionality:
+Add New Menu Items – Comprehensive form for dish details
 
-Install Git if not already installed. You can verify this by running:
+Course Categorization – Predefined categories: Starter, Main Course, Dessert
 
-git --version
+Menu Display – Organized viewing of all menu items
 
+Statistical Overview – Real-time calculations and totals
 
-If not installed, follow the installation steps from the previous response.
+Item Management – Remove functionality for menu items
 
-1. Clone the Repository
+User Interface:
+Home Screen – Dashboard with key statistics and navigation
 
-Clone this project to your local machine:
+Add Dish Screen – User-friendly form with validation
 
-git clone https://github.com/st10466666@rcconnet.edu.za/christoffels-menu.git
+Menu List Screen – Clean card-based item display
 
-2. Install Dependencies
+Bottom Navigation – Easy screen switching
 
-Navigate to the project folder and install the required dependencies:
+Data Management:
+State Management – React useState for data persistence
 
-cd christoffels-menu
-npm install
+Form Validation – Input validation and error handling
 
-3. Start the App
+Real-time Updates – Instant statistical calculations
 
-Once dependencies are installed, you can start the app with the following command:
+3. TECHNICAL SPECIFICATIONS
+Technology Stack:
+Frontend Framework: React Native
 
-npm start
+Development Platform: Expo
 
+Programming Language: TypeScript
 
-This will open Expo in your browser, and you can scan the QR code with your mobile device (using the Expo Go app) or use an emulator to view the app.
+Navigation: Custom state-based navigation
 
-# Usage
-Including Items on the Menu:
+Styling: React Native StyleSheet
 
- Enter the price, description, and dish name in the appropriate fields.
-
- To choose from starters, main courses, or desserts, use the dropdown menu.
-
- To include the item in the list, tap the Add Menu Item button.
-
- Looking at the Menu:
-
- All newly added menu items, such as the dish name, description, course, and price, will be shown on the home screen.
-
- As new items are added, the total number of menu items will be updated dynamically.
-
- # Technology Stack
- React Native: Framework used for building the app.
-
-TypeScript: A superset of JavaScript for better development experience with static types.
-
-Expo: Framework used to quickly run and build React Native apps.
-
-React Navigation: For managing the navigation between different screens (future use).
-
-# Overall Design
-The app will have a clean, modern, and minimalistic design. The user interface will prioritize clarity and ease of use. There will be a combination of text inputs, buttons, and lists. The app will be laid out vertically, with each section clearly separated. The background will be light, with subtle colors to maintain focus on the content.
-
-<img width="1239" height="683" alt="code" src="https://github.com/user-attachments/assets/09b8d24f-2a53-4339-8465-c97480f56cce" />
-
-# App Layout Overview:
-
-Header: A bold, centered title saying "Welcome to Christoffel's Menu."
-
-Dish Input Section: Three input fields for entering Dish Name, Description, and Price, each with placeholder text.
-
-Course Selector: A dropdown (Picker) to choose between Starters, Mains, or Desserts.
-
-Add Menu Item Button: A button to add the dish to the list, placed below the course selector.
-
-Total Menu Count: A label displaying the total number of menu items added.
-
-Menu Items List: A dynamic list that shows added dishes, including their name, description, course, and price, each item separated by a clean, bordered box.
-
-# Design Style:
-
-Light background, dark text for readability.
-
-Simple, modern, and user-friendly with rounded corners and subtle borders around inputs and buttons.
-
-Clean layout with plenty of spacing for easy navigation and interaction.
-
-# License
-
-This project is licensed under the MIT License
-
-
+State Management: React Hooks (useState)
