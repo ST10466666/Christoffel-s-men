@@ -6,7 +6,9 @@ A comprehensive React Native mobile application for restaurant menu management, 
 
 The Restaurant Menu Management App provides chefs with an intuitive interface to manage restaurant dishes across different course categories. Features include adding new menu items, categorizing by course type, viewing menu statistics, and managing existing items.
 
+
 ## Features
+<img width="522" height="895" alt="Screenshot 2025-11-11 221944" src="https://github.com/user-attachments/assets/a53876e8-655f-4219-8301-00da0d614aa1" />
 
 ### Core Functionality
 - **Add New Menu Items** - Comprehensive form with validation
@@ -109,7 +111,7 @@ src/
 
 ### Demo Links
 - **GitHub Repository**: [ST10466666/Christoffel-s-men](https://github.com/ST10466666/Christoffel-s-men)
-- **YouTube Demo**: [App Demonstration](https://youtu.be/g6VAN25KYS4)
+- **YouTube video link**: https://youtu.be/8UxzRkB0Mo0?feature=shared
 
 ##  Changelog
 
